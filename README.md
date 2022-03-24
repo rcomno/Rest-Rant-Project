@@ -7,7 +7,7 @@ REST-Rant is an app where users can review restaurants.
 >So heres some experemnetation with what is on [Git Hub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 | Method | Path | Purpose |
-|--------|------|---------|
+|:-------|:----:|:--------|
 | GET | / | Home page |
 | GET | /places | Places index page |
 | POST | /places | Create new place |
