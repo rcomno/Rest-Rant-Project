@@ -12,8 +12,8 @@ module.exports = [{
     pic: 'https://placekitten.com/250/250'
 }, {
     name: 'Placeholder',
-    city: 'Placeholder',
-    state: 'Placeholder',
-    cuisines: 'Placeholder',
+    city: 'Anytown',
+    state: 'AL',
+    cuisines: 'Generic',
     pic: 'https://placekitten.com/250/250'
 }]
