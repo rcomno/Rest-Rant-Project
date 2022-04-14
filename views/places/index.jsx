@@ -23,6 +23,9 @@ function index (data) {
 
     return (
         <Def>
+            <head>
+              <link rel="stylesheet" href="../style.css" />
+            </head>
             <main>
                 <h1>Places to Rant or Rave about.</h1>
                 <div className="row">

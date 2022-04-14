@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: #becacb;
     text-align: center;
 }
   
@@ -11,11 +11,11 @@ main {
 
 h1 {
     text-align: center;
-    color: #f22;
+    color: #50a3a5;
 }
 
 nav {
-    background-color: cornflowerblue;
+    background-color: #274f50;
     padding: 10px;
 }
 
@@ -35,6 +35,6 @@ nav a {
 }
 
 nav a:hover {
-    color: pink;
+    color: #7af7fa;
     text-decoration: none;
 }
