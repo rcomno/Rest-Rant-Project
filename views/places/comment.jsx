@@ -4,12 +4,9 @@ const Def = require('../default.jsx')
 function comment_form (data) {
     return (
         <Def>
-            <head>
-             <link rel="stylesheet" href="../style.css" />
-            </head>
             <main>
                 <h1>Comments for {data.place.name}</h1>
-                <form method="POST" action={`/places/${data.place.id}/commet?_method=PUT`}>
+                <form method="POST" action={`/places/${data.place.id}/comment?_method=POST`}>
                     <div className="form-group">
                         <label htmlFor="c.author">Your Name</label>
                         <input className="form-control" id="c.author" name="c.author" required />
@@ -34,3 +31,5 @@ function comment_form (data) {
 }
 
 module.exports = comment_form
+
+//mongodb://localhost:27017/rest-rant mongodb+srv://User700001:4CjGV8eXFmTm9hoZ@cluster0.3hjtm.mongodb.net/rest_rant

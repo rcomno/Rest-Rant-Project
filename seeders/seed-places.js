@@ -5,7 +5,7 @@ db.Place.create([{
     city: 'Seattle',
     state: 'WA',
     cuisines: 'Thai, Pan Asian',
-    pic: 'https://www.placekitten.com/250/250',
+    pic: './public/images/FL18Beach1.jpg/',
     founded: 1989
 }, {
     name: 'Coding Cat Cafe',

@@ -46,10 +46,10 @@ router.get('/:id/edit', (req, res) => {
 })
 
 //Places Comment Page
-router.get('/:id/rant', (req, res) => {
+router.get('/:id/comment', (req, res) => {
   db.Place.findById(req.params.id)
   .then(place => {
-      res.render('places/rant', { place })
+      res.render('places/comment', { place })
   })
   .catch(err => {
       res.render('error404')
@@ -68,10 +68,11 @@ router.post('/', (req, res) => {
   })
 })
 
-router.post('/:id/rant', (req, res) => {
-  res.send('GET /places/:id/rant stub')
+/*
+router.post('/:id/comment', (req, res) => {
+  res.send('GET /places/:id/comment stub')
 })
-
+*/
 
 //UPDATE DATA
 //Comments
